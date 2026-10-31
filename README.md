@@ -21,6 +21,10 @@ Broken Object Level Authorization: the API checks that you are logged in, but no
 3. Use non-sequential IDs (GUID) as an extra layer, not a replacement
 4. Test authorization automatically in every release
 
+## Test
+    pip install pytest
+    pytest
+    
 ## References
 OWASP API Security Top 10: API1 Broken Object Level Authorization
 
